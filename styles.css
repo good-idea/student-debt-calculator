@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Oxygen+Mono');
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: black;
+	color: whitesmoke;
+}
+
+h1 {
+	font-size: 12rem;
+	margin: 0;
+}
+
+p, li {
+	font-size: 1.6rem;
+}
+
+a {
+	color: white;
+	text-decoration: underline;
+}
+
+h5 {
+	font-size: 1.5rem;
+}
+
+.tickers {
+	margin-top: 5rem;
+	margin-left: 2rem;
+	max-width: 120rem;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 0.05em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.ticker {
+	flex-basis: 24rem;
+	text-align: left;
+	position: relative;
+	padding-bottom: 4rem;
+}
+
+.ticker .label {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.sources {
+	max-width: 50rem;
+	margin-left: 2rem;
+	font-family: 'Oxygen Mono', monospace;
+}
